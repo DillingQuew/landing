@@ -1,0 +1,32 @@
+.header {
+  // background-color: black;
+  &__container {
+    display: flex;
+    align-items: center;
+    background-image: url('/img/bg_header.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    object-fit: cover;
+    padding: 0 30px;
+    margin: 0 auto;
+    min-height: 250px;
+    max-height: auto;
+  }
+}
+
+.logo {
+  height: 100%;
+  // margin: auto 0;
+  display: inline-block;
+  &__container {
+    background-color: #fff;
+    display: inline-block;
+    
+  }
+  &__image {
+    height: 100%;
+    width: auto;
+    margin: 30px;
+    // object-fit: cover;
+  }
+}

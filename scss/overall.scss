@@ -1,0 +1,46 @@
+@import 'variables.scss';
+* {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.5rem;
+}
+#map {
+  height: 400px; /* The height is 400 pixels */
+  width: 100%; /* The width is the width of the web page */
+}
+body {
+  background-color: #f2f2f2;
+}
+.container {
+  max-width: 1160px;
+  height: auto;
+  margin: 0 auto;
+  padding: 0 30px;
+  overflow: visible;
+
+}
+
+.title {
+  padding: 0 20px;
+}
+.site-container {
+  // max-width: 1100px;
+  // margin: 0 auto;
+}
+
+.button-link {
+  // display: block;
+  padding: 10px 20px;
+  background-color: $accent-color;
+  text-align: center;
+  border-radius: 15px;
+}
+.section-header {
+  background-color: $accent-color;
+  padding: 25px 0;
+}
+.section-body {
+  background-color: #fff;
+  padding: 20px;
+  margin: 20px 0px;
+  border-radius: 20px;
+}

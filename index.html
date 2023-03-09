@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>template</title>
+   <link rel="stylesheet" href="css/style.css">
+   <link rel="stylesheet" href="css/owl.carousel.min.css">
+   <link rel="stylesheet" href="css/owl.theme.default.min.css">
+</head>
+
+<body>
+  <div class="site-container">
+    <header class="header">
+      <div class="container header__container">
+          <div class="logo">
+            <div class="logo__container">
+              <img src="img/logo.svg" alt="" class="logo__image">
+            </div>
+          </div>
+      </div>
+   </header>
+   <main class="main">
+      <section class="about">
+        <div class="section-header section__about">
+          <div class="container">
+            <h2 class="title about__title">О компании</h2>
+          </div>
+        </div>
+        <div class="container">
+          <div class="section-body about__section-body">
+            <div class="about__info">
+              <p class="about__text">
+                ООО «АлТехно» с 2010 года занимается 
+                проектированием, производством и продажей только
+                 светодиодных светильников различного типа. 
+                 Мы хорошо изучили потребности наших клиентов и 
+                 поставляем продукцию, зарекомендовавшую 
+                 себя долгим временем службы на объектах заказчиков.
+                </p>
+                 <a href="#" class="about__link">Узнать больше</a>
+            </div>
+            <!-- <div class="about__image"> -->
+              <img src="img/map.png" alt="" class="about__image">
+            <!-- </div> -->
+          </div>
+        </div>
+      </section>
+      <section class="works">
+        <div class="section-header section__works">
+          <div class="container">
+            <h2 class="title works__title">Наши работы</h2>
+            
+          </div>
+        </div>
+        <div class="container">
+          <div class="section-body works__section-body">
+            <div class="owl-carousel owl-theme" style="position: relative;">
+              <div> 
+                <img src="img/slide_1.jpg" alt="">
+              </div>
+              <div> 
+                <img src="img/slide2.jpg" alt="">
+              </div>
+              <div> 
+                <img src="img/slide3.jpg" alt="">
+              </div>
+            </div>
+          </div> 
+        </div>
+      </section>
+      <section class="filials">
+        <div class="section-header section__filials">
+          <div class="container">
+            <h2 class="title filials__title">Филиалы</h2>
+          </div>
+        </div>
+        <div class="container">
+          <div class="section-body filials__section-body">
+            <div class="tab">
+              <button class="tablinks" onclick="openCity(event, 'London')" id="defaultOpen">London</button>
+              <button class="tablinks" onclick="openCity(event, 'Paris')">Paris</button>
+              <button class="tablinks" onclick="openCity(event, 'Tokyo')">Tokyo</button>
+            </div>
+            
+            <div id="London" class="tabcontent">
+              <h3>London</h3>
+              <div class="about__info">
+                <p class="about__text">
+                  ООО «АлТехно» с 2010 года занимается 
+                  проектированием, производством и продажей только
+                   светодиодных светильников различного типа. 
+                   Мы хорошо изучили потребности наших клиентов и 
+                   поставляем продукцию, зарекомендовавшую 
+                   себя долгим временем службы на объектах заказчиков.
+                  </p>
+                   <a href="#" class="about__link">Узнать больше</a>
+              </div>
+              <!-- <div class="about__image"> -->
+                <img src="img/map.png" alt="" class="about__image">
+            </div>
+            
+            <div id="Paris" class="tabcontent">
+              <h3>Paris</h3>
+              <div class="about__info">
+                <p class="about__text">
+                  ООО «АлТехно» с 2010 года занимается 
+                  проектированием, производством и продажей только
+                   светодиодных светильников различного типа. 
+                   Мы хорошо изучили потребности наших клиентов и 
+                   поставляем продукцию, зарекомендовавшую 
+                   себя долгим временем службы на объектах заказчиков.
+                  </p>
+                   <a href="#" class="about__link">Узнать больше</a>
+              </div>
+              <!-- <div class="about__image"> -->
+                <img src="img/map.png" alt="" class="about__image">
+            </div>
+            
+            <div id="Tokyo" class="tabcontent">
+              <h3>Tokyo</h3>
+              <div class="about__info">
+                <p class="about__text">
+                  ООО «АлТехно» с 2010 года занимается 
+                  проектированием, производством и продажей только
+                   светодиодных светильников различного типа. 
+                   Мы хорошо изучили потребности наших клиентов и 
+                   поставляем продукцию, зарекомендовавшую 
+                   себя долгим временем службы на объектах заказчиков.
+                  </p>
+                   <a href="#" class="about__link">Узнать больше</a>
+              </div>
+              <!-- <div class="about__image"> -->
+                <img src="img/map.png" alt="" class="about__image">
+            </div>
+            </div>
+          </div> 
+        </div>
+      </section>
+   </main>
+  </div>
+   
+</body>
+<script src="js/jquery.min.js"></script>
+<script src="js/owl.carousel.min.js"></script>
+<script src="js/main.js"></script>
+
+</html>

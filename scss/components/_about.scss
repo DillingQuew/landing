@@ -1,0 +1,24 @@
+.about {
+  &__text {
+    margin-bottom: 10px;
+  }
+  &__image-wrapper{
+    float: right;
+  }
+  &__section-body {
+    display: flex;
+    // flex-wrap: wrap;
+    
+  }
+  &__image {
+    height: auto;
+    width: 100%;
+  }
+  &__link {
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 15px;
+    background-color: $accent-color;
+    // color: rgb(76, 76, 76);
+  }
+}

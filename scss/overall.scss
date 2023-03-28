@@ -3,6 +3,9 @@
   font-family: Arial, Helvetica, sans-serif;
   font-size: 1.5rem;
 }
+html {
+  scroll-behavior: smooth; /* свойство scroll-behavior не наследуется, применяется к прокручиваемым блокам */ 
+}
 #map {
   height: 400px; /* The height is 400 pixels */
   width: 100%; /* The width is the width of the web page */
@@ -43,4 +46,12 @@ body {
   padding: 20px;
   margin: 20px 0px;
   border-radius: 20px;
+}
+
+@media screen and (max-width: 500px) {
+  .container {
+    padding: 0;
+    margin: 0;
+  }
+  
 }

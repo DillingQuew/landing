@@ -77,6 +77,11 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 1.5rem;
 }
 
+html {
+  scroll-behavior: smooth;
+  /* свойство scroll-behavior не наследуется, применяется к прокручиваемым блокам */
+}
+
 #map {
   height: 400px;
   /* The height is 400 pixels */
@@ -119,6 +124,13 @@ body {
   border-radius: 20px;
 }
 
+@media screen and (max-width: 500px) {
+  .container {
+    padding: 0;
+    margin: 0;
+  }
+}
+
 .header__container {
   display: flex;
   align-items: center;
@@ -140,12 +152,12 @@ body {
 .logo__container {
   background-color: #fff;
   display: inline-block;
+  padding: 30px;
 }
 
 .logo__image {
   height: 100%;
   width: auto;
-  margin: 30px;
 }
 
 .about__text {
@@ -170,6 +182,16 @@ body {
   padding: 10px 20px;
   border-radius: 15px;
   background-color: #83d2ff;
+}
+
+.about__item {
+  display: inline;
+}
+
+@media (max-width: 900px) {
+  .about__section-body {
+    flex-wrap: wrap;
+  }
 }
 
 .nav-button {

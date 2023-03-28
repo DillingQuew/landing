@@ -21,4 +21,17 @@
     background-color: $accent-color;
     // color: rgb(76, 76, 76);
   }
+  &__list {
+    
+    
+  }
+  &__item{
+    display: inline;
+  }
+}
+
+@media(max-width:900px) {
+  .about__section-body {
+    flex-wrap: wrap;
+  }
 }
